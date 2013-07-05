@@ -1,0 +1,283 @@
+<?php
+## Changes
+
+'ADMINGB_LIST_MENUSUBITEM'     							=> 'Guest Book',
+'ADMINGB_TITLE' 											=> '[OXID Guest Book]',
+'ALTERNATIVE_IMAGE_SERVER_NOTE' 							=> '<b>Note:</b> Alternative image server configuration detected, files will not be uploaded to remote location. Please address synchronization manually.',
+'ARTICLE_BUNDLE_UNASSIGNARTICLE' 							=> 'Undo Product assignment',
+
+## *****************************
+#   'ARTICLE_CROSSSELLING_ASSIGNCROSSSELLING' 				=> 'Assign Cross Sellings',
+#   'ARTICLE_CROSSSELLING_CROSSSELLING' 						=> 'Cross Selling Products',
+#   "croSSSelling" (3 consonants in a row?) M-W will never go for that. We might as well just separate it into two words now and be a leader in the #   pack.
+## *****************************
+
+'ARTICLE_EXTEND_ERRORSAVINGTPRICE' 							=> 'Attention: MSRP price must be bigger than normal price.',
+##  MSRP=Manufacturer's Suggested Retail Price
+
+'ARTICLE_EXTEND_UPLOADFILE' 								=> 'Or upload the file (large files should be uploaded via ftp)<br>(file name may only contain letters, numbers, underscore (_) and a dot (.))',
+'ARTICLE_EXTEND_UPLOADISDISABLED' => 'This is a demoshop. Uploading files has been switched off to maintain security.',
+'ARTICLE_MAIN_ARTNUM' 										=> 'Prod. No.',
+'ARTICLE_MAIN_VARIANTE' 									=> 'Option for',
+
+'ARTICLE_OVERVIEW_CANCELEDCNT' 								=> 'Number of canceled Units',
+##  Keeping "canceled" vs. "cancelled" for consistency.
+
+'ARTICLE_PICTURES_UPLOADISDISABLED' 						=> 'This is a demoshop. Uploading files has been switched off to maintain security.',
+'ARTICLE_STOCK_VPE' 										=> 'Packaging unit',
+'ARTICLE_VARIANT_ARTNUM' 									=> 'Prod. No.',
+'ARTICLE_VARIANT_NEWVAR' 									=> 'New Option',
+'ARTICLE_VARIANT_VARSAVE' 									=> 'Save Options',
+'ARTICLE_VARIANT_YOUWANTTODELETE' 							=> 'Do you really want to delete this Option?',
+'CATEGORY_MAIN_TEMPLATE' 									=> 'Alt. Template',
+'CATEGORY_PICTURES_UPLOADISDISABLED' 						=> 'This is a demoshop. Uploading or deleting images has been switched off to maintain security.',
+'CATEGORY_RIGHTS_APPLYLEVEL2' 								=> 'Apply changes to category, subcategories and their products',
+'CATEGORY_RIGHTS_APPLYLEVEL4' 								=> 'Apply changes to category, subcategories and their products',
+'COUNTRY_MAIN_OXVATSTATUS' 									=> 'TAX handling',
+'COUNTRY_MAIN_OXVATSTATUS_0' 								=> 'Do not bill TAX',
+'COUNTRY_MAIN_OXVATSTATUS_1' 								=> 'Do not bill TAX only if provided valid TAX ID',
+'CUSTOMERNUM' 												=> 'Cust. No.',
+'DYNBASE_DO_LINK' 											=> 'The Partner can also pick-up this file himself - please note the following Link:',
+'dyn_menu' 													=> 'Service Area',
+'DYN_TRUSTED_CHEQUE' 										=> 'Check',
+'DYN_TRUSTED_CLICKANDBUY' 									=> 'Click \& Buy',
+'DYN_TRUSTED_DIRECT_E_BANKING' 								=> 'SOFORT Banking',
+
+#  Flagged   'DYN_TRUSTED_MONEYBOOKERS' 					=> 'moneybookers.com / Skrill',
+#  Perhaps	 ?????????    =====>							=> 'https://www.moneybookers.com/app/skrill.pl',
+
+'EFIRE_GETCONNECTOR' 										=> 'Once you are registered with OXID eFire you\'ll be able to download your personalized copy of the shop connector and install it directly to the correct shop location.',
+'EMAIL_PRICEALARM_CUSTOMER_HAVEPRICEALARM' 					=> 'we have a Price Alert in',
+'EMAIL_PRICEALARM_CUSTOMER_HY' 								=> 'Hello',
+'EXCEPTION_ACCESSRIGHT_ACCESSDENIED' 						=> 'Access denied, insufficient rights!',
+'EXCEPTION_DISABLED_DOWNLOADABLE_PRODUCTS' 					=> 'To use this feature in frontend, you have to enable config. option \'Enable downloadable products\' in Master Settings -> Core Settings -> Settings -> Downloadable products.',
+'EXCEPTION_FILENAMEINVALIDCHARS' 							=> 'Invalid chars. in file name',
+'EXCEPTION_FILEUPLOADERROR_1' 								=> 'The uploaded file exceeds the maximum allowed size',
+'EXCEPTION_FILEUPLOADERROR_2' 								=> 'The uploaded file exceeds the maximum allowed size',
+
+##  Query
+#   'EXCEPTION_FILEUPLOADERROR_3' 								=> 'The uploaded file was only partially uploaded',
+#                                              Do you want to say, 'Attention: Only partial file uploading occurred'   ???
+
+'EXCEPTION_NOFILE' 											=> 'No file uploaded',
+'EXCEPTION_NOTALLOWEDTYPE' 									=> 'File type not allowed (please, edit config.inc.php to allow this type of file)',
+'EXCEPTION_USER_USEREXISTS' 								=> 'This user already exists!',
+
+##  comment
+#   'GENERAL_AJAX_DESCRIPTION' 									=> 'Drag items between the lists to assign/unassign',
+#  left "unassign" here as it makes the most concise sense. (corrected 'assign' spelling though)
+
+'GENERAL_AJAX_SORT_OXARTNUM' 								=> 'Prod. No.',
+'GENERAL_AJAX_SORT_OXID'									=> 'ID',
+'GENERAL_AJAX_SORT_OXIDENT' 								=> 'Ident.',
+'GENERAL_AJAX_SORT_OXSTREETNR' 								=> 'Street No.',
+'GENERAL_AJAX_SORT_OXUNNUM3' 								=> 'Unique No.',
+
+##   Query
+#'GENERAL_AJAX_UNASSIGNALL' 									=> 'Unassign all',
+#    Perhaps ????   ====>                                          'Undo all assignments'      ????
+
+'GENERAL_ARTICLE_OXBUNDLEID' 								=> 'Bundle Ident. No.',
+'GENERAL_ARTICLE_OXID' 										=> 'Internal Ident. No.',
+'GENERAL_ARTICLE_OXNOSTOCKTEXT' 							=> 'Out-Of-Stock Message', 
+'GENERAL_ARTICLE_OXPARENTID' 								=> 'Ident. No. Main Product',
+'GENERAL_ARTICLE_OXSEOID' 									=> 'SEO ID',
+'GENERAL_ARTICLE_OXSHOPID' 									=> 'Shop Ident. No.',
+'GENERAL_ARTICLE_OXSTOCKTEXT' 								=> 'In Stock Message',
+
+##     Query
+#    'GENERAL_ARTICLE_OXUNITQUANTITY' 							=> 'Quantity Unit',
+#      Perhaps   ?????    =====>                                   'Quantity per Unit'       ??????
+
+'GENERAL_ARTICLE_OXVARCOUNT' 								=> 'Option count',
+'GENERAL_ARTICLE_OXVARMINPRICE' 							=> 'Minimum price of all options',
+'GENERAL_ARTICLE_OXVARNAME' 								=> 'Option Name',
+'GENERAL_ARTICLE_OXVPE' 									=> 'Packaging unit',
+'GENERAL_ARTNUM' 											=> 'Prod. No.',
+'GENERAL_EXPORTMAINVARS' 									=> 'Export Options of Base Product:',
+'GENERAL_EXPOSTVARS' 										=> 'Export Options:',
+'GENERAL_IDENT' 											=> 'Ident.',
+'GENERAL_ITEMNR' 											=> 'Prod. No.',
+'GENERAL_IVAT' 												=> 'TAX',
+'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' 				=> 'Maximum count of downloads for unregistered users',
+
+##    comment
+#     'GENERAL_MAX_PICTURE_DIMENSIONS' 							=> 'max. 1500*1500 px',
+#     even though px. is an abbreviation for pixel and grammatically should be followed by a "." it is commonly accepted in programming language to #     be used w/o the period. 
+
+'GENERAL_USTID' 											=> 'TAX ID No.',
+'GENERAL_VARIANTE' 											=> 'Option of',
+'GENERAL_YOUWANTTOUNASSIGN' 								=> 'Do you really want to undo this assignment from current shop?',
+
+##     comment
+#      'HELP_ARTICLE_MAIN_PRICE' 									=> 'This price is passed on to the product\'s options.
+#      <ul><li>Depending on the shop settings net price or gross price is input/shown.</li>
+#      <li>Gross price is always shown in parentheses.</li></ul>',
+#      Parents do not inherit "TO" their children. Their children inherit "FROM" their parents.  
+
+'LANGUAGE_ALREADYEXISTS_ERROR' 								=> 'Error: language with such abbreviation already exists!',
+'LANGUAGE_BACKEND_NOTRANSLATIONS_WARNING' 					=> 'Attention: No language files were found in /admin dir. for selected language!',
+'LANGUAGE_ERRORGENERATEVIEWS' 								=> 'Please don\'t forget to update database views under Service->Tools',
+'LANGUAGE_ERROR_RESETING_MULTILANG_FIELDS' 					=> 'Attention: Error occured while resetting multilanguage fields after language delete!',
+'LANGUAGE_FRONTEND_NOTRANSLATIONS_WARNING' 					=> 'Attention: No language files were found in theme or out dir. for selected language!',
+'LANGUAGE_NOTRANSLATIONS_WARNING' 							=> 'Attention: No language files were found in templates dir. for selected language!',
+'mainCategory' 												=> 'Main Cat.',
+'MODULE_DELETEEXTENSION' 									=> 'Do you want to remove all module information including config. options and block information for templates?',
+
+##     Humor
+#      'MODULE_STANDALONEFILE' 							=> 'This module is a stand-alone php file. The module should be saved inside a directory!',
+#      The importance of a hyphen is best illustrated by the difference between extra marital sex and extra-marital sex.
+#      Hyphen added to "standalone."
+
+'mxguestbook' 												=> 'Guest Book',
+'NAVIGATION_SYSREQ_MESSAGE' 								=> 'System health check shows setup/server setup of this OXID eShop might be broken. Probably this OXID eShop behaves strange in some cases. Please fix this as soon as possible. Support for fixing can be found in',
+'NAVIGATION_SYSREQ_MESSAGE2' 								=> 'system health check.',
+'NO_PICTURES_CHANGES' 										=> 'No pictures changed',
+'ORDER_ARTICLE_MWST' 										=> 'TAX',
+'ORDER_OVERVIEW_ORDERAMTODAY' 								=> 'Number of Orders Today',
+'ORDER_OVERVIEW_ORDERAMTOTAL' 								=> 'Number of Orders TOTAL',
+'ORDER_OVERVIEW_PDF_ARTID' 									=> 'Prod. No.:',
+'ORDER_OVERVIEW_PDF_DELIVNOTE' 								=> 'Delivery note no.',
+'ORDER_OVERVIEW_PDF_GREETINGS' 								=> 'Thank you for your order! Please order from us again and recommend us to others.',
+'ORDER_OVERVIEW_PDF_SHIPCOST' 								=> 'Shipping & Handling',
+'ORDER_OVERVIEW_PDF_TAXIDNR' 								=> 'Sales TAX ID:',
+
+##   Unsure what context is
+#    'ORDER_PACKAGE_TITLE' 										=> 'OXID PACKLIST',
+#    Unchanged
+
+##   Query
+#     'ORDER_SEARCH_FIELD_ARTID' 									=> 'Product',
+#                                     Possibly    ????   ====>         'Product ID'
+
+##   Query
+#     'PAYMENT_RDFA_ADVICE_START' 								=> '<b>Hint:</b> Please choose only those payment methods, pre-defined in #          GoodRelations, that comply with your payment method',
+#      Choose payment method that complies with your payment method. Seems redundant to me and requires clarification.
+
+##    Note:
+#       'PAYMENT_RDFA_GOOGLECHECKOUT' 								=> 'Google Checkout',
+#         Google Checkout retires on Nov 20, 2013. See website for alternatives.
+
+'PRICEALARM_MAIL_OPENEMAILS2' 								=> 'Price Alert e-mails open and ready to be sent.',
+'PRICEALARM_MAIL_SENDPRICEALARMEMAIL1' 						=> 'To send Price Alert e-mails to customers please',
+'PRICEALARM_SEND_SENDED' 									=> 'Sent:',
+'REPORT_SEARCHSTRINGS_INTIME' 								=> 'The following Search Keys were entered in the specified time-frame',
+'REPORT_TOP_CLICKED_CATEGORIES_CLICKPERCAT' 				=> 'Clicks per Category',
+'REVERSE_PROXY_TEST_SUCCESS' 								=> 'Reverse Proxy test succeessful',
+'serial_added' 												=> 'License key has been added',
+'SETUP_CONFIGPERMISSIONS_WARNING' 							=> 'To improve your security set your config.inc.php file to read-only mode!',
+'SETUP_DIRNOTDELETED_WARNING' 								=> 'Please delete directory: setup.',
+'SHOP_CACHE_WARNING_CONTENTCACHE_ENABLED' 					=> 'We recommend to not use "Dynamic Content Caching" and "Reverse Proxy" at the same time, as it could slow down site performance.',
+'SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET' 		=> 'Calculate TAX according to the biggest net value',
+'SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_METHOD' 	=> 'TAX calculation of additional services',
+'SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL'		=> 'Calculate TAX proportionately',
+'SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' 					=> 'Alternative URL for online TAX ID check',
+'SHOP_CONFIG_BASKETRESERVATIONTIMEOUT' 						=> 'Seconds of cart expiration timeout',
+'SHOP_CONFIG_BIDIRECTCROSS' 								=> 'Enable bidirectional Cross Selling',
+'SHOP_CONFIG_CALCDELVATONTOP' 								=> 'Enter Shipping Costs as net Price (plus TAX)',
+'SHOP_CONFIG_CALCPAYVATONTOP' 								=> 'Enter Payment Method Charges as net Price (plus TAX)',
+'SHOP_CONFIG_CALCULATEVATFORDELIVERY' 						=> 'Display shipping costs as net price and TAX (instead of gross) in shopping cart and invoice',
+'SHOP_CONFIG_CALCULATEVATFORWRAPPING' 						=> 'Display TAX contained in Gift Wrappings and Greeting Cards in Shopping Cart and Invoice',
+'SHOP_CONFIG_CALCULATEVATOFORPAYCHARGE' 					=> 'Display TAX contained in Payment Method Charges in Shopping Cart and Invoice',
+'SHOP_CONFIG_CALCWRAPVATONTOP' 								=> 'Enter Gift Wrapping and Greeting Card Prices as net Price (plus TAX)',
+'SHOP_CONFIG_CNTOFNEWS' 									=> 'Number of News items which are displayed in the News Box',
+'SHOP_CONFIG_CSVDECIMALSEPARATOR' 							=> 'CSV decimal Separation Char. for Im/Export',
+'SHOP_CONFIG_CSVSEPARATOR' 									=> 'CSV Separation Char. for Im/Export',
+'SHOP_CONFIG_DEFAULTVAT' 									=> 'Default TAX for all Products',
+'SHOP_CONFIG_ENTERNETPRICE' 								=> 'Enter Product Prices as Net Prices (plus TAX)',
+'SHOP_CONFIG_EXCLUDENONMATERIALPRODUCTS' 					=> 'Don\'t consider intangible Products (e.g., Gift Certificates) in Shipping Costs Calculation',
+'SHOP_CONFIG_MAXGBENTRIESPERDAY' 							=> 'Number of Guest Book entries each User is allowed to enter per Day','SHOP_CONFIG_MWSTSETTING' 									=> 'TAX Settings for XML export',
+'SHOP_CONFIG_NUMBEROFCROSSSELLARTICLES' 					=> 'Number of Cross Selling Products and Accessories which are shown with a Product',
+'SHOP_CONFIG_SETORDELETELANGUAGESSLURL' 					=> 'Language dependent Base SSL URL\'s per language (optional). Enter one URL per line. The first URL is used for the first language, the second URL for the second language etc. An example:<br />https://www.yourssleshop.de/<br />https://www.yourssleshop.com/',
+'SHOP_CONFIG_SETORDELETELANGUAGEURL' 						=> 'Language dependent Base URL\'s per language (optional). Enter one URL per line. The first URL is used for the first language, the second URL for the second language etc. An example:<br />http://www.youreshop.de/<br />http://www.youreshop.com/',
+'SHOP_CONFIG_SHIPPINGCOUNTRYVAT' 							=> 'Use shipping country for TAX calculation instead of billing country',
+'SHOP_CONFIG_UNASSIGNDEFAULTCAT' 							=> 'Undo default category assignment',
+'SHOP_CONFIG_UPDATEVIEWS' 									=> 'Database views need to be updated!',
+'SHOP_LICENSE_ALLOWEDMANDATES' 								=> 'max. no. of mandates',
+'SHOP_LICENSE_USEDMANDATES' 								=> 'No. of used mandates',
+'SHOP_MALL_MALLINHERIT_OXDISCOUNT' 							=> 'Inherit all <b>discounts and TAXES</b> from parent shop',
+'SHOP_MALL_UPDATEVIEWSINFO' 								=> 'After particular DB table structure updates, in order for changes to take effect you need to regenerate DB views.',
+'SHOP_OPTIONS_GROUP_VARIANTS' 								=> 'Options',
+'SHOP_OPTIONS_GROUP_VAT' 									=> 'TAX',
+'SHOP_PERF_CALCVATONLYFORBASKETORDER' 						=> 'Calculate specific TAX for countries only in Shopping Cart and Checkout',
+'SHOP_PERF_LOADCROSSSELLING' 								=> 'Load Cross Selling',
+'SHOP_PERF_LOADDISCOUNTS' 									=> 'Calculate Discounts and TAX',
+'SHOP_PERF_LOADFULLTREE' 									=> 'Load complete Category Tree for Navigation (May cause Performance Problems if many Categories exist)',
+'SHOP_PERF_LOADVARIANTS' 									=> 'Load Options in Lists (Search Results, Categories). This uses much Memory and may cause Performance Problems on small Servers',
+'SHOP_PERF_PARSELONGDESCINSMARTY' 							=> 'Process Description of Products and Categories with Smarty',
+'SHOP_RDFA_CONTENT_DELIVERY' 								=> 'In which content page should the RDF data of not assigned <b>shipping methods</b>  be embedded?',
+'SHOP_RDFA_CONTENT_OFFERER' 								=> 'In which content page should the RDF data of the <b>eShop</b> be embedded?',
+'SHOP_RDFA_CONTENT_PAYMENT' 								=> 'In which content page should the RDF data of not assigned <b>payment methods</b>  be embedded?',
+'SHOP_RDFA_DURATION_PRICES' 								=> 'Select the time of the validity of your product prices.',
+'SHOP_RDFA_SUBMITED_SUCCESSFULLY' 							=> 'Your shop data was successfully submitted',
+'SHOP_RDFA_VAT' 											=> 'Are the prices and costs shown to the purchaser <b>incl.</b> or <b>excl. TAX</b>?',
+'SHOP_RDFA_VAT_EX' 											=> 'excl. TAX.',
+'SHOP_RDFA_VAT_INC' 										=> 'incl. TAX.',
+'SHOP_SEO_NEWINSTALL' 										=> 'ATTENTION: you need to make sure that the distributed .htaccess works correctly  (mod rewrite)',
+'SHOP_SEO_QRESETIDS' 										=> 'ATTENTION: This function will reset current SEO IDs for Categories, Products, Manufacturers and Distributors. The SEO IDs will be recalculated the next time the corresponding page is opened.',
+'SHOP_SYSTEM_DENIEDDYNGROUPS' 								=> 'Prohibited User Groups for dynamic User Group assignment using "dgr" URL param.',
+'SHOP_SYSTEM_INTERFACEPROFILES' 							=> 'Admin. Profiles (resolution / number of lines in list section)',
+'SHOP_SYSTEM_LOGSKIPTAGS' 									=> 'Exclusions for Admin. log',
+'SHOP_SYSTEM_SHOWVARIANTREVIEWS' 							=> 'Show Option Ratings for "Parent" Product',
+'SHOP_SYSTEM_STOREIPS' 										=> 'Store User IP Addresses (check your local laws for legality)',
+'SHOP_SYSTEM_USEMULTIDIMENSIONVARIANTS' 					=> 'Use multidimensional options',
+'SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE' 					=> 'Options inherit Scale Prices from "Parent" Product',
+'SHOP_SYSTEM_VARIANTSSELECTION' 							=> 'Display Options in Assignment Lists in eShop admin.',
+'simpleDateFormat' 											=> 'm-d-Y',
+'snporderlistoxartnum' 										=> 'Prod. No.',
+
+##     Query
+#      'STASTISTIC_MAIN_ORDERFROM' 								=> 'OR From',
+#                 Should this be   ??????     ======>              'Order From'        ??????
+
+'tbclarticle_crossselling' 									=> 'Cross Sell.',
+'tbclarticle_variant' 										=> 'Options',
+'TOOLS_MAIN_UPDATEVIEWSINFO' 								=> 'After particular DB table structure updates, in order for the changes to take effect you need to regenerate DB views.',
+
+##    Query    Line 1830
+#      'TOOLTIPS_ADDSUMITMTYPE' 									=> 'Absolute, percentage<br> or Product<br>Markup/Discount',
+#     This does not make sense to me. Perhaps because out of context. Possibly => 'Absolute or Percentage<br>Product<br>Markup/Discount',    ?????
+
+'TOOLTIPS_ARTICLESTOCK' 									=> 'Quantity of Products in stock',
+
+##     Confusing
+#        'TOOLTIPS_ARTICLEUNITDESCRIPTION' 							=> 'Under the basic price is the price to understand, based<br> on a specific #         unit of measure applies, including<br> the sales tax and other price components.',
+#      Possibly  => 'Under the basic (net?) price is the (gross?) price consisting of the applicable unit of measure, sales tax, and other price #                    components.',
+#      Unchanged.
+
+'TOOLTIPS_ARTICLEVAT' 										=> 'Specify only if individual TAX',
+'TOOLTIPS_ARTLIST_ROLEGENERATOR' 							=> '(Re:) Generate Rights & Roles fields',
+'TOOLTIPS_EDITVAR' 											=> 'Edit Option',
+'TOOLTIPS_FORMAT' 											=> 'Format : MM-DD-YYYY',
+'TOOLTIPS_ITEMUNASSIGN' 									=> 'Undo assignment from shop',
+'TOOLTIPS_NEWARTICLE' 										=> 'Create new Product',
+'TOOLTIPS_NEWCATEGORY' 										=> 'Create new Category',
+'TOOLTIPS_NEWCONTENT' 										=> 'Create new Content',
+'TOOLTIPS_NEWCOUNTRY' 										=> 'Create new Country',
+'TOOLTIPS_NEWLANGUAGE' 										=> 'Create new Language',
+'TOOLTIPS_NEWMALLCAT' 										=> 'Create new Mall Category',
+'TOOLTIPS_NEWMWST' 											=> 'Create new TAX',
+'TOOLTIPS_NEWSHOP' 											=> 'Create new Shop',
+'TOOLTIPS_NEWUSERGROUP' 									=> 'Create new User Group',
+'TOOLTIPS_NEWVAR3' 											=> 'Create new Option',
+'TOOLTIPS_NEWVOUCHER' 										=> 'Create new Coupon Series',
+'TOOLTIPS_NEWWRAPPING' 										=> 'Create new Gift Wrapping Style',
+'TOTAL_PLUS_PROPORTIONAL_VAT' 								=> 'plus TAX (proportionally calculated)',
+'UPDATEAPP_DIRNOTDELETED_WARNING' 							=> 'Please delete directory: updateApp.',
+'USER_EXTEND_EMAILFAILED' 									=> 'E-mail Addr. is Invalid',
+'USER_EXTEND_MOBILFON' 										=> 'Cellular Phone',
+'USER_EXTEND_NEWSLETTER' 									=> 'Receives Newsletter',
+'USER_LIST_CUSTOMERNUM' 									=> 'Cust. No.',
+'USER_MAIN_STRNR' 											=> 'Street No., Street',
+'USER_OVERVIEW_BREACKORDER' 								=> 'Canceled Orders',
+'usrRegistered' 											=> 'The user will be registered after password is entered.',
+
+##     Confusing
+#    'VOUCHERSERIE_LIST_MINVALUE' 								=> 'Min. Order Sum',
+#     changed to      ======>                                   => 'Min. Order Amount',         (can be abbr. "Amt.)
+
+
+'VOUCHERSERIE_MAIN_GENERATERANDOM' 							=> 'Generate Random No.',
+'VOUCHERSERIE_MAIN_MINORDERPRICE' 							=> 'Min. Order Amount',
+
+?>
